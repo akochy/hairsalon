@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Hair salon</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="site-title">
+                <a href="index.html">Hair salon</a>
+            </h1>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <main>
+        <section class="contact wrapper" id="contact">
+            <h3 class="section-title">contact</h3>
+            <p>回答には数日いただくことがございます。また、土日祝日・年末年始ほか・当社休業日にいただくお問い合わせについては、翌営業日以降の回答となりますので予めご了承ください。</p>
+
+            <p>↓お問い合わせの内容をクリックして下さい↓</p>
+            <div class="checkbox-2">
+                <label>
+                    <input type="checkbox" name="checkbox-2" checked />
+                    カット
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox-2" />
+                    カラー
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox-2" />
+                    パーマ
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox-2" />
+                    縮毛矯正
+                </label>
+                <label>
+                    <input type="checkbox" name="checkbox-2" />
+                    その他
+                </label>
+            </div>
+            <dl>
+                <dt><label for="name">NAME</label></dt>
+                <dd><input type="text" id="name"></dd>
+                <dt><label for="e-mail">E-mail</label></dt>
+                <dd><input type="text" id="e-mail"></dd>
+                <dt><label for="message">MESSAGE</label></dt>
+                <dd><textarea id="message"></textarea></dd>
+            </dl>
+            <div class="submit-btn btn-color">
+            <input type="submit" value="送信">
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <ul class="sns">
+            <li><a href="https://www.twitter.com"><img src="img/devicon_twitter.png"></a></li>
+            <li><a href="https://www.instagram.com"><img src="img/bi_instagram.png"></a></li>
+            <li><a href="https://www.facebook.com"><img src="img/uil_facebook.png"></a></li>
+        </ul>
+        <p>©Hair salon</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
